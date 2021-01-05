@@ -6,7 +6,7 @@ import RegisterForm from './../registerForm';
 import TextBox from './../textBox';
 
 const Modal = props => {
-	const { clicked, heading, formSwitcher, formClicked } = props;
+	const { formSwitcher, formClicked } = props;
 	return (
 		<div className={styles.modal}>
 			<div className={styles.main}>
