@@ -10,7 +10,7 @@ const Home = props => {
 
 	useEffect(() => {
 		onLoad();
-	}, []);
+	}, [onLoad]);
 
 	let history = useHistory();
 	
