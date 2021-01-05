@@ -1,0 +1,34 @@
+@import url('./../../../assets/_variables.css');
+
+.viewCard {
+	min-height: 200px;
+	border-radius: 0.7rem;
+	padding: 0.5rem 1rem;
+	position: relative;
+}
+
+.edit {
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}
+
+.view {
+	position: absolute;
+	bottom: 1rem;
+	right: 2rem;
+}
+
+.price {
+	position: absolute;
+	bottom: 1rem;
+	right: 2rem;
+}
+
+.name {
+	padding: 0 1rem;
+}
+
+.description {
+	padding: 0.3rem 1rem;
+}

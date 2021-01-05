@@ -1,0 +1,37 @@
+@import url('./../../../assets/_variables.css');
+
+.button {
+	border-radius: 1rem;
+	border: none;
+	background: var(--white-color);
+	padding: 0.2rem 1rem;
+	font-family: var(--regular);
+	outline: none;
+	cursor: pointer;
+}
+
+.primary {
+	background: var(--primary-color);
+	color: var(--white-color);
+	font-family: var(--semibold);
+	border: 2px solid var(--primary-color);
+}
+
+.secondary {
+	background: var(--white-color);
+	font-family: var(--semibold);
+	color: var(--secondary-color);
+	border: 2px solid var(--primary-color);
+}
+
+.large {
+	font-size: 1.2rem;
+}
+
+.medium {
+	font-size: 1rem;
+}
+
+.small {
+	font-size: 0.8rem;
+}

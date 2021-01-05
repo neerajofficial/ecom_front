@@ -1,0 +1,16 @@
+@import url('./../../assets/_variables.css');
+
+.searchBox {
+	outline: none;
+	padding: 0.4rem 1rem;
+	border: none;
+	width: 100%;
+	font-family: var(--semibold);
+	border-radius: 0.7rem;
+	color: var(--secondary-color);
+	background: var(--dark-color);
+}
+
+.searchBox::placeholder {
+	color: var(--secondary-color);
+}

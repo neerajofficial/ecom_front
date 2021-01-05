@@ -1,0 +1,9 @@
+@import url('./../../assets/_variables.css');
+
+.backdrop {
+	width: 100vw;
+	height: 100vh;
+	background: var(--dark-color);
+	position: absolute;
+	z-index: 8;
+}

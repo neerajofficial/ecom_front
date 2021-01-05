@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'regular';
+    src:
+        local('regular'),
+        url('./fonts/regular.ttf')
+}
+
+@font-face {
+    font-family: 'semibold';
+    src:
+        local('semibold'),
+        url('./fonts/semibold.ttf')
+}
+
+@font-face {
+    font-family: 'bold';
+    src:
+        local('bold'),
+        url('./fonts/bold.ttf')
+}
+
+:root {
+	/* ------ Color ------ */
+	--regular: ;
+	--primary-color: #ff7b54;
+	--secondary-color: #939b62;
+	--light-color: #ffb26b;
+	--dark-color: #00000022;
+    --black-color: #333333;
+	--white-color: #ffffff;
+
+	/* ------ Fonts ------ */
+    --bold: 'bold';
+	--regular: 'regular';
+    --semibold: 'semibold';
+    
+}

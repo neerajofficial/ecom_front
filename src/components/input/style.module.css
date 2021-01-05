@@ -1,0 +1,15 @@
+@import url('./../../assets/_variables.css');
+
+.input {
+	outline: none;
+	padding: 0.4rem 1rem;
+	border: none;
+	width: 100%;
+	font-family: var(--semibold);
+	border-bottom: 2px solid var(--dark-color);
+	color: var(--secondary-color);
+}
+
+.input::placeholder {
+	color: var(--secondary-color);
+}

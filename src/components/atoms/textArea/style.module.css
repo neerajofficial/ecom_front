@@ -1,0 +1,16 @@
+@import url('./../../../assets/_variables.css');
+
+.textArea {
+	outline: none;
+	padding: 0.4rem 1rem;
+	border: none;
+	width: 100%;
+	resize: none;
+	font-family: var(--semibold);
+	border-bottom: 2px solid var(--dark-color);
+	color: var(--secondary-color);
+}
+
+.textArea::placeholder {
+	color: var(--secondary-color);
+}
