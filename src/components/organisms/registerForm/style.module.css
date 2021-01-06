@@ -1,6 +1,6 @@
-@import url('./../../assets/_variables.css');
+@import url('./../../../assets/_variables.css');
 
-.loginForm {
+.registerForm {
 	margin: 2rem;
 }
 

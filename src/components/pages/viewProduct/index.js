@@ -5,8 +5,8 @@ import * as actions from './../../../store/actions';
 import styles from './style.module.css';
 
 import Button from './../../atoms/button';
-import Img from './../../img';
-import TextBox from './../../textBox';
+import Img from './../../atoms/img';
+import TextBox from './../../atoms/textBox';
 
 const baseURL = process.env.REACT_APP_API_SERVER;
 

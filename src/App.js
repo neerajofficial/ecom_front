@@ -8,9 +8,9 @@ import AdminProducts from './components/pages/adminProducts';
 import Home from './components/pages/home';
 import ViewProduct from './components/pages/viewProduct';
 
-import Backdrop from './components/backdrop';
-import Modal from './components/modal';
-import Navigation from './components/navigation';
+import Backdrop from './components/templates/backdrop';
+import Modal from './components/templates/modal';
+import Navigation from './components/organisms/navigation';
 
 const App = props => {
   const { checkauth, redirect, logout, token } = props;

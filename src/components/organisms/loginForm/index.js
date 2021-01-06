@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { connect } from 'react-redux';
-import * as actions from './../../store/actions';
+import * as actions from './../../../store/actions';
 import styles from './style.module.css';
 
-import Button from './../button';
-import Input from './../input';
-import TextBox from './../textBox';
+import Button from './../../atoms/button';
+import Input from './../../atoms/input';
+import TextBox from './../../atoms/textBox';
 
 const LoginForm = props => {
 	const { login, message } = props;

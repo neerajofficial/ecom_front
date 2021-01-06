@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './style.module.css';
 
-import Button from './../atoms/button';
-import Img from './../img';
-import TextBox from './../textBox';
+import Button from './../../atoms/button';
+import Img from './../../atoms/img';
+import TextBox from './../../atoms/textBox';
 
 const ProductCard = props => {
 	const { src, prod_name, prod_price, description, imageWrap, size, admin, clicked, viewClicked, deleteItem } = props;

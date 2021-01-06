@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style.module.css';
 
-import ProductCard from './../productCard'
+import ProductCard from './../../molecules/productCard'
 
 const baseURL = process.env.REACT_APP_API_SERVER;
 

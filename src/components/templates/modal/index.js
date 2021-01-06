@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './style.module.css';
 
-import LoginForm from './../loginForm';
-import RegisterForm from './../registerForm';
-import TextBox from './../textBox';
+import LoginForm from './../../organisms/loginForm';
+import RegisterForm from './../../organisms/registerForm';
+import TextBox from './../../atoms/textBox';
 
 const Modal = props => {
 	const { formSwitcher, formClicked } = props;

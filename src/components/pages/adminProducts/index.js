@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import { connect } from 'react-redux';
 import * as actions from './../../../store/actions';
 
-import Products from './../../products';
+import Products from './../../templates/products';
 
 const AdminProducts = props => {
 	const { checkauth, onLoad, ondelete, products, token } = props;

@@ -2,10 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './style.module.css';
 
-import logo from './../../assets/icons/logo.svg';
-import Button from './../button';
-import Img from './../img';
-import SearchBox from './../searchBox';
+import logo from './../../../assets/icons/logo.svg';
+import Button from './../../atoms/button';
+import Img from './../../atoms/img';
+import SearchBox from './../../atoms/searchBox';
 
 const Navigation = props => {
 	const { auth, login, logout } = props;
